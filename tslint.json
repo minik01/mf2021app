@@ -131,6 +131,7 @@
     "no-output-native": true,
     "no-output-on-prefix": true,
     "no-output-rename": true,
+    "no-empty-interface": false,
     "no-outputs-metadata-property": true,
     "template-banana-in-box": true,
     "template-no-negated-async": true,
@@ -145,7 +146,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      "dol",
       "kebab-case"
     ]
   }

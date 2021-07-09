@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { EventPlanComponent } from './event-plan/event-plan.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventPlanComponent
+    EventPlanComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
